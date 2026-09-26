@@ -1,0 +1,27 @@
+--!strict
+
+return {
+    MaxResult = 20,
+    DistractorDistance = 3,
+    Operations = { "add", "subtract", "multiply" },
+    MaxFactor = 5,
+    CheckpointSize = Vector3.new(32, 2, 16),
+    PlatformDepth = 20,
+    PlatformThickness = 2,
+    SectionGap = 4,
+    DoorWidth = 8,
+    DoorHeight = 12,
+    DoorThickness = 2,
+    PillarWidth = 2,
+    HeaderHeight = 3,
+    QuestionHeight = 4,
+    QuestionGap = 1,
+    FloorColor = Color3.fromRGB(90, 140, 155),
+    FrameColor = Color3.fromRGB(35, 55, 75),
+    DoorColor = Color3.fromRGB(125, 215, 245),
+    TextColor = Color3.fromRGB(255, 255, 255),
+    DoorTransparency = 0.65,
+    PixelsPerStud = 40,
+    DebounceSeconds = 0.75,
+    TouchTolerance = 3,
+}

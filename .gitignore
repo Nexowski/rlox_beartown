@@ -1,0 +1,26 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Roblox Studio locks
+*.rbxl.lock
+*.rbxlx.lock
+*.rbxm.lock
+*.rbxmx.lock
+
+# Binary places are local Studio saves/builds, not code sources.
+# Save the Studio-owned map separately; Git does not back up ignored places.
+*.rbxl
+
+# Text places (.rbxlx) and models (.rbxmx) may be versioned outside build folders.
+
+# Generated output and temporary builds
+/build/
+/dist/
+/out/
+/tmp/
+*.tmp
+*.temp
+*.rbxl.autosave
+*.rbxlx.autosave

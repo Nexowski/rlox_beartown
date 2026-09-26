@@ -1,0 +1,51 @@
+# Project
+
+This is a Roblox game using Luau and Rojo 7.
+
+## Tech stack
+
+- Roblox Studio
+- Luau
+- Rojo 7
+- Git
+
+## Project structure
+
+- src/server - server-side scripts
+- src/client - LocalScripts
+- src/shared - shared ModuleScripts
+
+## Rules
+
+- Use Luau, not generic Lua.
+- Keep server logic separate from client logic.
+- Put shared modules in ReplicatedStorage through Rojo.
+- Prefer ModuleScripts over large monolithic scripts.
+- Do not modify generated Roblox place files.
+- Keep scripts small and focused.
+- Use clear names for Roblox Instances and modules.
+
+## Roblox conventions
+
+- Server code belongs in ServerScriptService.
+- Client code belongs in StarterPlayerScripts or StarterGui.
+- Shared code belongs in ReplicatedStorage.
+- Never trust data sent from the client.
+- Validate RemoteEvent and RemoteFunction arguments on the server.
+- Avoid unnecessary loops running every frame.
+
+## Rojo
+
+The project is synced with Roblox Studio using:
+
+rojo serve
+
+Do not break default.project.json mappings.
+
+## Testing
+
+After making changes:
+- check for Luau syntax errors
+- check for incorrect Roblox service names
+- verify client/server boundaries
+- explain any Roblox Studio steps required to test the change
